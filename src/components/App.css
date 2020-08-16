@@ -1,0 +1,186 @@
+.App {
+  background-color: #2e2c2b;
+}
+
+.congratsImg {
+  width: 600px;
+  height: 500px;
+}
+
+.finishBlock {
+  width: 100%;
+  height: 622px;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  flex-direction: column;
+}
+
+.whiteText {
+  color: white;
+}
+
+.audio {
+  position: relative;
+  top: 20px;
+  max-width: 300px;
+}
+
+.flex {
+  display: flex;
+}
+
+.currentBirdBlock {
+  width: 50%;
+}
+
+.displayGrid {
+  display: flex;
+  flex-direction: column;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.header {
+  flex-wrap: wrap;
+}
+
+.lastClikedName {
+  font-size: 25px;
+  border-bottom: #8d8c8c 1px solid;
+}
+
+.currentBirdLatName {
+  font-size: 15px;
+  border-bottom: #8d8c8c 1px solid;
+}
+
+@media (max-width: 700px) {
+  .birdInfoDirection {
+    flex-direction: column;
+  }
+  .font10 {
+    font-size: 10px;
+  }
+  .currentBirdBlock {
+    width: 100%;
+  }
+  .lastClikedName {
+    font-size: 15px;
+  }
+  .currentBirdLatName {
+    font-size: 12px;
+  }
+  .audio {
+    position: relative;
+    top:10px;
+    max-width: 300px;
+  }
+}
+
+.answerItemCircle {
+  width: 10px;
+  height: 10px;
+  background-color: #8d8c8c;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.rightAnswerItem {
+  background-color: #6bb18e;
+}
+
+.wrongAnswerItem {
+  background-color: darkred;
+}
+
+.answerItem {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 20px;
+  height: 50px;
+  background-color: #4c4c4c;
+  border: #8d8c8c 1px solid;
+}
+
+.width50 {
+  flex-basis: 50%;
+}
+
+.repeatBtn {
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.headerActiveColor {
+  background-color: #6bb18e;
+}
+
+.nextLevelBtn {
+  width: 100%;
+  height: 50px;
+}
+
+.nextLevelBtnDefault {
+  background-color: #4c4c4c;
+}
+
+.marginTop {
+  margin-top: 40px;
+}
+
+.padding15 {
+  padding: 15px;
+}
+
+.paddingLeft15 {
+  padding-left: 15px;
+}
+
+.paddingRight15 {
+  padding-right: 15px;
+}
+
+.headerAlign {
+  justify-content: space-between;
+}
+
+.clickedBirdInfo {
+  width: 100%;
+}
+
+.headerNotActiveColor {
+  background-color: #3d8661;
+}
+
+.flexGrow {
+  flex-grow: 1;
+}
+
+.currentBird {
+  height: 35%;
+  width: 35%;
+  max-width: 200px;
+  max-height: 150px;
+  border-radius: 30px;
+}
+
+.currentBirdName {
+  font-size: 30px;
+  border-bottom: #8d8c8c 1px solid;
+}
+
+.currentQuestion {
+  background-color: #4c4c4c;
+}
+
+.questionListItem {
+  align-items: center;
+  height: 30px;
+  flex-grow: 1;
+  justify-content: center;
+}
